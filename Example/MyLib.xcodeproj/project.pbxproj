@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3053493B269E23EE0002D560 /* MyLibMocks.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053493A269E23EE0002D560 /* MyLibMocks.generated.swift */; };
 		37B550B33EFFB7C5697BB2F4 /* Pods_MyLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84232BEA268DC6EB33BAA6B0 /* Pods_MyLib_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3053493A269E23EE0002D560 /* MyLibMocks.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLibMocks.generated.swift; sourceTree = "<group>"; };
 		3A92F409F463A25A2F4881C0 /* Pods_MyLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A30D22AE76A8EB6CC35B677 /* Pods-MyLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyLib_Tests/Pods-MyLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MyLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,12 +42,12 @@
 		607FACE51AFB9204008FA782 /* MyLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		76E2275E4173743A61BB192B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		76E2275E4173743A61BB192B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7F3BFCF25490A74F1F2CEE70 /* Pods-MyLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-MyLib_Example/Pods-MyLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		84232BEA268DC6EB33BAA6B0 /* Pods_MyLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3AE5DF2FF1D26D64E857034 /* Pods-MyLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLib_Example.release.xcconfig"; path = "Target Support Files/Pods-MyLib_Example/Pods-MyLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CD22803366E01BA5AE63EEBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DAAC73FA3AA55ADE8DA29541 /* MyLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyLib.podspec; path = ../MyLib.podspec; sourceTree = "<group>"; };
+		CD22803366E01BA5AE63EEBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DAAC73FA3AA55ADE8DA29541 /* MyLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyLib.podspec; path = ../MyLib.podspec; sourceTree = "<group>"; };
 		FF2247048C697DDEAC7D5E5C /* Pods-MyLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyLib_Tests/Pods-MyLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		30534939269E23EE0002D560 /* MockingbirdMocks */ = {
+			isa = PBXGroup;
+			children = (
+				3053493A269E23EE0002D560 /* MyLibMocks.generated.swift */,
+			);
+			name = MockingbirdMocks;
+			path = "cocoapod-mock/MockingbirdMocks";
+			sourceTree = "<group>";
+		};
 		3DABA1C2BCC146D851569C31 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,13 +97,13 @@
 				FF2247048C697DDEAC7D5E5C /* Pods-MyLib_Tests.debug.xcconfig */,
 				5A30D22AE76A8EB6CC35B677 /* Pods-MyLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				30534939269E23EE0002D560 /* MockingbirdMocks */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for MyLib */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -187,6 +198,8 @@
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MyLib_Tests" */;
 			buildPhases = (
 				F150F4097DCC8836AB696EC8 /* [CP] Check Pods Manifest.lock */,
+				30534938269E1C5B0002D560 /* Clean Mockingbird mocks */,
+				30534933269E15830002D560 /* Generate Mockingbird Mocks */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -228,6 +241,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +294,45 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyLib_Example/Pods-MyLib_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		30534933269E15830002D560 /* Generate Mockingbird Mocks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"/tmp/mockingbird-cache-buster",
+			);
+			name = "Generate Mockingbird Mocks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/Tests/Mocks/MyLibMocks.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nmockingbird generate --targets MyLib --project ./Pods/Pods.xcodeproj --srcroot ./cocoapod-mock\n\n# Set up the cache buster for the next build\nrm -f '/tmp/mockingbird-cache-buster'\n";
+		};
+		30534938269E1C5B0002D560 /* Clean Mockingbird mocks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Clean Mockingbird mocks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"/tmp/mockingbird-cache-buster",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho $RANDOM > '/tmp/mockingbird-cache-buster'\n";
 		};
 		8467FC1750973C6649F67550 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -363,6 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3053493B269E23EE0002D560 /* MyLibMocks.generated.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
