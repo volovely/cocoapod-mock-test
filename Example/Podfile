@@ -10,5 +10,6 @@ target 'MyLib_Example' do
 
     pod 'Quick'
     pod 'Nimble'
+    pod 'MockingbirdFramework'
   end
 end

@@ -1,6 +1,6 @@
 import Foundation
 
-public class Cunsumer {
+public class Consumer {
   private var provider: Provider
   
   init(provider: Provider) {
