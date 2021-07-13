@@ -1,0 +1,27 @@
+PODS:
+  - MyLib (0.1.0)
+  - Nimble (9.2.0)
+  - Quick (4.0.0)
+
+DEPENDENCIES:
+  - MyLib (from `../`)
+  - Nimble
+  - Quick
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  MyLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyLib: 3c07403a7238e3392fe13ef47f4b974217aa2683
+  Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
+  Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
+
+PODFILE CHECKSUM: df0100136d12b8ff84d53e22309f6d2f48fc5d69
+
+COCOAPODS: 1.10.1
